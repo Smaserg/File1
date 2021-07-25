@@ -5,3 +5,4 @@ with open("f1.txt", "w") as file:
     array.sort(key=lambda x: len(x))
     print(array)
     file.write(array)
+print("Привет")
